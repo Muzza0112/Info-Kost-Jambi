@@ -1,0 +1,514 @@
+.detail-kost,
+.detail-kost * {
+  box-sizing: border-box;
+}
+.detail-kost {
+  background: #ffffff;
+  height: 1474px;
+  position: relative;
+  overflow: hidden;
+}
+.mdi-location {
+  width: 31px;
+  height: 30px;
+  position: absolute;
+  left: 830px;
+  top: 327px;
+  overflow: visible;
+}
+.navbar {
+  width: 1440px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  left: -250px; /* Hide the sidebar initially */
+  width: 250px;
+  height: 100%;
+  background: #f6f6f6;
+  z-index: 1000;
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  left: 0; /* Show the sidebar */
+}
+
+/* Sidebar content styling */
+.sidebar img.user {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 45%;
+  top: 10%;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  position: absolute;
+  right: 38%;
+  top: 18%;
+}
+
+.sidebar img.logout {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 45%;
+  top: 80%;
+}
+
+.rectangle-5 {
+  background: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.infokostjambi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 69.93%;
+  left: 18.54%;
+  width: 11.53%;
+  bottom: 24.42%;
+  top: 45%;
+  height: 34.88%;
+}
+
+.logo-nav {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 210px;
+  top: 29px;
+  overflow: visible;
+}
+
+.rectangle-6 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 33.33%;
+  height: 62.79%;
+  position: absolute;
+  right: 9.03%;
+  left: 57.64%;
+  bottom: 10.47%;
+  top: 26.74%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.cari-kost {
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 30.9%;
+  left: 63.68%;
+  width: 5.42%;
+  bottom: 27.91%;
+  top: 44.19%;
+  height: 27.91%;
+}
+.rectangle-7 {
+  background: #023246;
+  border-radius: 10px;
+  width: 6.32%;
+  height: 62.79%;
+  position: absolute;
+  right: 9.03%;
+  left: 84.65%;
+  bottom: 10.47%;
+  top: 26.74%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+}
+.basil-search-outline {
+  width: 2.22%;
+  height: 34.88%;
+  position: absolute;
+  right: 38.47%;
+  left: 59.31%;
+  bottom: 24.42%;
+  top: 40.7%;
+  overflow: visible;
+}
+.cari {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 11.11%;
+  left: 86.25%;
+  width: 2.64%;
+  bottom: 27.91%;
+  top: 44.19%;
+  height: 27.91%;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 61.94%;
+  left: 35.14%;
+  width: 2.92%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.daftar-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 53.54%;
+  left: 40.76%;
+  width: 5.69%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.tentang-kami {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 44.38%;
+  left: 48.82%;
+  width: 6.81%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.logo {
+  width: 3.12%;
+  height: 52.33%;
+  position: absolute;
+  right: 83.12%;
+  left: 13.75%;
+  bottom: 16.86%;
+  top: 30.81%;
+  overflow: visible;
+}
+.material-symbols-menu {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 125px;
+  top: 29px;
+  overflow: visible;
+}
+.footer {
+  width: 1440px;
+  height: 172px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 1302px;
+}
+.rectangle-8 {
+  background: #023246;
+  width: 100%;
+  height: 55.81%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 44.19%;
+}
+.infokostjambi2 {
+  color: #f6f6f6;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 42.01%;
+  left: 46.46%;
+  width: 11.53%;
+  bottom: 18.9%;
+  top: 63.66%;
+  height: 17.44%;
+}
+.logo2 {
+  width: 3.12%;
+  height: 26.16%;
+  position: absolute;
+  right: 54.93%;
+  left: 41.94%;
+  bottom: 15.12%;
+  top: 58.72%;
+  overflow: visible;
+}
+.image-1 {
+  border-radius: 10px;
+  width: 679px;
+  height: 373px;
+  position: absolute;
+  left: 131px;
+  top: 139px;
+  object-fit: cover;
+}
+.jenis-kost {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-31 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 143px;
+  height: 36px;
+  position: absolute;
+  left: 830px;
+  top: 244px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.kost-campur {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 842px;
+  top: 248px;
+}
+.kost-eksklusif-trona-jambi-selatan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 830px;
+  top: 139px;
+}
+.kecamatan-jambi-selatan-https-maps-app-goo-gl-o-rga-dq-qqknym-1-g-328 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 881px;
+  top: 310px;
+}
+.telepon-whatsh-app-089675643211 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 830px;
+  top: 395px;
+}
+.rp-1-300-000-bulan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+  left: 830px;
+  top: 453px;
+}
+.spesifikasi-tipe-kamar {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 131px;
+  top: 581px;
+}
+.peraturan-di-kost-ini {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 727px;
+  top: 571px;
+}
+.fasilitas-kamar {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 131px;
+  top: 731px;
+}
+._3-x-4-meter-tidak-termasuk-listrik {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 626px;
+}
+.akses-24-jam-check-in-pukul-14-00-21-00-sewa-harian-check-out-maks-pukul-12-00-sewa-harian-lawan-jenis-dilarang-ke-kamar-wajib-lampirkan-ktp-saat-check-in-sewa-harian {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 720px;
+  top: 626px;
+}
+.ketentuan-pengajuan-sewa {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 730px;
+  top: 831px;
+  width: 480px;
+}
+.waktu-mulai-ngekos-terdekat-bisa-di-hari-h-setelah-pengajuan-sewa-waktu-mulai-ngekos-terjauh-2-bulan-setelah-pengajuan-sewa {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 723px;
+  top: 886px;
+  width: 587px;
+}
+.waktu-mulai-ngekos-terdekat-bisa-di-hari-h-setelah-pengajuan-sewa-waktu-mulai-ngekos-terjauh-2-bulan-setelah-pengajuan-sewa-span {
+  color: #000000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.waktu-mulai-ngekos-terdekat-bisa-di-hari-h-setelah-pengajuan-sewa-waktu-mulai-ngekos-terjauh-2-bulan-setelah-pengajuan-sewa-span2 {
+  color: #000000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.waktu-mulai-ngekos-terdekat-bisa-di-hari-h-setelah-pengajuan-sewa-waktu-mulai-ngekos-terjauh-2-bulan-setelah-pengajuan-sewa-span3 {
+  color: #000000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.waktu-mulai-ngekos-terdekat-bisa-di-hari-h-setelah-pengajuan-sewa-waktu-mulai-ngekos-terjauh-2-bulan-setelah-pengajuan-sewa-span4 {
+  color: #000000;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.ac-meja-lemari-baju-bantal-jendela {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 135px;
+  top: 776px;
+}
+.fasilitas-kamar-mandi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 128px;
+  top: 969px;
+}
+.kamar-mandi-dalam-shower-kloset-duduk-bathtub {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 132px;
+  top: 1014px;
+}
+.fasilitas-umum {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  left: 132px;
+  top: 1174px;
+}
+.wifi-cctv-penjaga-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 136px;
+  top: 1219px;
+}
+.kasur-tv-cermin-kursi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 325px;
+  top: 776px;
+}
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-color: #023246;
+  
+    /* Fonts */
+    /* Effects */
+  }
+
+  a {
+    text-decoration: none;
+  }

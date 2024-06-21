@@ -1,0 +1,451 @@
+.pengelolaan-kost-admin-2,
+.pengelolaan-kost-admin-2 * {
+  box-sizing: border-box;
+}
+.pengelolaan-kost-admin-2 {
+  background: #ffffff;
+  height: 2193px;
+  position: relative;
+  overflow: hidden;
+}
+.footer {
+  width: 1440px;
+  height: 172px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 2021px;
+}
+.rectangle-8 {
+  background: #023246;
+  width: 100%;
+  height: 55.81%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 44.19%;
+}
+.infokostjambi {
+  color: #f6f6f6;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 42.01%;
+  left: 46.46%;
+  width: 11.53%;
+  bottom: 18.9%;
+  top: 63.66%;
+  height: 17.44%;
+}
+.logo {
+  width: 3.12%;
+  height: 26.16%;
+  position: absolute;
+  right: 54.93%;
+  left: 41.94%;
+  bottom: 15.12%;
+  top: 58.72%;
+  overflow: visible;
+}
+.btn-simpan {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-34 {
+  background: #287094;
+  border-radius: 10px;
+  width: 180px;
+  height: 52px;
+  position: absolute;
+  left: 627px;
+  top: 1922px;
+  color: #fefefe;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+}
+.simpan {
+  color: #fefefe;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 681px;
+  top: 1935px;
+}
+.nama-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 208px;
+}
+.info-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 62px);
+  top: 124px;
+}
+.rectangle-37 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 62px;
+  position: absolute;
+  left: 630px;
+  top: 194px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.spesifikasi-tipe-kamar {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 704px;
+}
+.rectangle-42 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 630px;
+  top: 654px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fasilitas-kamar {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 863px;
+}
+.rectangle-43 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 630px;
+  top: 813px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ketentuan-pengajuan-sewa {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 127px;
+  top: 1519px;
+}
+.rectangle-47 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 627px;
+  top: 1469px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.jadikan-kost-unggulan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 1653px;
+}
+.peraturan-di-kost-ini {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 1355px;
+}
+.rectangle-46 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 630px;
+  top: 1305px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fasilitas-umum {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 1191px;
+}
+.rectangle-45 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 630px;
+  top: 1141px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fasilitas-kamar-mandi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 1027px;
+}
+.rectangle-44 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 134px;
+  position: absolute;
+  left: 630px;
+  top: 977px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.nominal-harga-bulan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 576px;
+}
+.rectangle-41 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 62px;
+  position: absolute;
+  left: 630px;
+  top: 562px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.telepon-whats-app {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 484px;
+}
+.rectangle-40 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 62px;
+  position: absolute;
+  left: 630px;
+  top: 470px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.alamat-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 392px;
+}
+.rectangle-39 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 62px;
+  position: absolute;
+  left: 630px;
+  top: 378px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.jenis-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 300px;
+}
+.rectangle-38 {
+  background: #f6f6f6;
+  width: 680px;
+  height: 62px;
+  position: absolute;
+  left: 630px;
+  top: 286px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.bullet {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  left: 642px;
+  top: 1663px;
+}
+.ya {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 668px;
+  top: 1655px;
+}
+.ellipse-12 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 17px;
+  height: 15px;
+  position: absolute;
+  left: 734px;
+  top: 1663px;
+}
+.tidak {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 760px;
+  top: 1655px;
+}
+
+.gambar {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 130px;
+  top: 1765px;
+}
+
+.kost-image{
+  position: absolute;
+  left: 1000px;
+  top: 1765px;
+}
+
+.rectangle-48{
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: 635px;
+  top: 1765px;
+}
+
+.kelola-kost-nav {
+  width: 1440px;
+  height: 86px;
+  position: sticky;
+  left: calc(50% - 720px);
+  top: 0px;
+}
+.rectangle-5 {
+  background: #f6f6f6;
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  left: calc(50% - 720px);
+  bottom: 0%;
+  top: 0%;
+}
+.infokostjambi2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 69.93%;
+  left: 18.54%;
+  width: 11.53%;
+  bottom: 24.42%;
+  top: 40.7%;
+  height: 34.88%;
+}
+
+.kelola-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  right: 30%;
+  left: 48.89%;
+  width: 17.71%;
+  bottom: 24.28%;
+  top: 40.7%;
+  height: 61.63%;
+}
+.logo2 {
+  width: 3.12%;
+  height: 52.33%;
+  position: absolute;
+  right: 83.12%;
+  left: 13.75%;
+  bottom: 16.86%;
+  top: 30.81%;
+  overflow: visible;
+}
+.material-symbols-menu {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 125px;
+  top: 29px;
+  overflow: visible;
+}
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-color: #023246;
+  
+    /* Fonts */
+    /* Effects */
+  }
+  

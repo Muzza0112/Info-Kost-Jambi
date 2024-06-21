@@ -1,0 +1,142 @@
+.login-admin,
+.login-admin * {
+  box-sizing: border-box;
+}
+.login-admin {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-24 {
+  background: #f6f6f6;
+  width: 478px;
+  height: 413px;
+  position: absolute;
+  left: calc(50% - 239px);
+  top: 200px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.log-in {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 635px;
+  top: 239px;
+}
+.username-email {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-25 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 314px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.username-or-email {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 558px;
+  top: 328px;
+}
+.password {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 395px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.password2 {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 559px;
+  top: 406px;
+}
+.btn-login {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-27 {
+  background: var(--primary-color, #023246);
+  border-radius: 10px;
+  width: 99px;
+  height: 32px;
+  position: absolute;
+  left: 625px;
+  top: 476px;
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+}
+.log-in2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 696px;
+  top: 480px;
+}
+.login-as-user-here {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 477px;
+  top: 521px;
+}
+.login-as-user-here-span {
+  color: #000000;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.login-as-user-here-span2 {
+  color: #000000;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+:root {
+    /* Colors */
+    --primary-color: #023246;
+  
+    /* Fonts */
+    /* Effects */
+  }

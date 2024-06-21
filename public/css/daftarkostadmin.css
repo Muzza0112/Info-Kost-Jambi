@@ -1,0 +1,757 @@
+.daftar-kost-1,
+.daftar-kost-1 * {
+  box-sizing: border-box;
+}
+.daftar-kost-1 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.navbar {
+  width: 1440px;
+  height: 86px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  left: -250px; /* Hide the sidebar initially */
+  width: 250px;
+  height: 100%;
+  background: #f6f6f6;
+  z-index: 1000;
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  left: 0; /* Show the sidebar */
+}
+
+/* Sidebar content styling */
+.sidebar img.user {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 40%;
+  top: 10%;
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  position: absolute;
+  right: 32%;
+  top: 18%;
+}
+
+.sidebar img.logout {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 45%;
+  top: 80%;
+}
+
+.sidebar .menu-kost {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 180px; /* Adjust spacing as needed */
+  margin-bottom: 50px; /* Add margin bottom for more space below */
+  background: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px; /* Optional: add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rectangle-5 {
+  background: #f6f6f6;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.infokostjambi {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 69.93%;
+  left: 18.54%;
+  width: 11.53%;
+  bottom: 24.42%;
+  top: 45%;
+  height: 34.88%;
+}
+
+.logo-nav {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 210px;
+  top: 29px;
+  overflow: visible;
+}
+
+.rectangle-6 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 33.33%;
+  height: 62.79%;
+  position: absolute;
+  right: 9.03%;
+  left: 57.64%;
+  bottom: 10.47%;
+  top: 26.74%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  padding-left: 25px;
+}
+.cari-kost {
+  color: rgba(0, 0, 0, 0.75);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  right: 30.9%;
+  left: 63.68%;
+  width: 5.42%;
+  bottom: 27.91%;
+  top: 44.19%;
+  height: 27.91%;
+}
+.rectangle-7 {
+  background: #023246;
+  border-radius: 10px;
+  width: 6.32%;
+  height: 62.79%;
+  position: absolute;
+  right: 9.03%;
+  left: 84.65%;
+  bottom: 10.47%;
+  top: 26.74%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+}
+.basil-search-outline {
+  width: 2.22%;
+  height: 34.88%;
+  position: absolute;
+  right: 38.47%;
+  left: 59.31%;
+  bottom: 24.42%;
+  top: 40.7%;
+  overflow: visible;
+}
+.cari {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 11.11%;
+  left: 86.25%;
+  width: 2.64%;
+  bottom: 27.91%;
+  top: 44.19%;
+  height: 27.91%;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 61.94%;
+  left: 35.14%;
+  width: 2.92%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.daftar-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 53.54%;
+  left: 40.76%;
+  width: 5.69%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.tentang-kami {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 44.38%;
+  left: 48.82%;
+  width: 6.81%;
+  bottom: 30.23%;
+  top: 45.35%;
+  height: 24.42%;
+}
+.logo {
+  width: 3.12%;
+  height: 52.33%;
+  position: absolute;
+  right: 83.12%;
+  left: 13.75%;
+  bottom: 16.86%;
+  top: 30.81%;
+  overflow: visible;
+}
+.material-symbols-menu {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 125px;
+  top: 29px;
+  overflow: visible;
+}
+.footer {
+  width: 1440px;
+  height: 172px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 852px;
+}
+.rectangle-8 {
+  background: #023246;
+  width: 100%;
+  height: 55.81%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 44.19%;
+}
+.infokostjambi2 {
+  color: #f6f6f6;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 42.01%;
+  left: 46.46%;
+  width: 11.53%;
+  bottom: 18.9%;
+  top: 63.66%;
+  height: 17.44%;
+}
+.logo2 {
+  width: 3.12%;
+  height: 26.16%;
+  position: absolute;
+  right: 54.93%;
+  left: 41.94%;
+  bottom: 15.12%;
+  top: 58.72%;
+  overflow: visible;
+}
+.post-kost {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-20 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 130px;
+  top: 492px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-1 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 142px;
+  top: 503px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 148px;
+  top: 725px;
+}
+.kecamatan-jambi-selatan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 148px;
+  top: 743px;
+}
+.tipe-kost-campuran {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 148px;
+  top: 757px;
+}
+.rp-1-300-000-bulan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 263px;
+  top: 805px;
+}
+.rectangle-202 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 1030px;
+  top: 492px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-12 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 1042px;
+  top: 503px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1048px;
+  top: 725px;
+}
+.kecamatan-jambi-selatan2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 1048px;
+  top: 743px;
+}
+.tipe-kost-campuran2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 1048px;
+  top: 757px;
+}
+.rp-1-300-000-bulan2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1163px;
+  top: 805px;
+}
+.rectangle-203 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 730px;
+  top: 492px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-13 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 742px;
+  top: 503px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 748px;
+  top: 725px;
+}
+.kecamatan-jambi-selatan3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 748px;
+  top: 743px;
+}
+.tipe-kost-campuran3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 748px;
+  top: 757px;
+}
+.rp-1-300-000-bulan3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 863px;
+  top: 805px;
+}
+.rectangle-204 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 430px;
+  top: 492px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-14 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 442px;
+  top: 503px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 448px;
+  top: 725px;
+}
+.kecamatan-jambi-selatan4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 448px;
+  top: 743px;
+}
+.tipe-kost-campuran4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 448px;
+  top: 757px;
+}
+.rp-1-300-000-bulan4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 563px;
+  top: 805px;
+}
+.rectangle-205 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 130px;
+  top: 119px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-15 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 142px;
+  top: 130px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 148px;
+  top: 352px;
+}
+.kecamatan-jambi-selatan5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 148px;
+  top: 370px;
+}
+.tipe-kost-campuran5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 148px;
+  top: 384px;
+}
+.rp-1-300-000-bulan5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 263px;
+  top: 432px;
+}
+.rectangle-206 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 1030px;
+  top: 119px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-16 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 1042px;
+  top: 130px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1048px;
+  top: 352px;
+}
+.kecamatan-jambi-selatan6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 1048px;
+  top: 370px;
+}
+.tipe-kost-campuran6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 1048px;
+  top: 384px;
+}
+.rp-1-300-000-bulan6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 1163px;
+  top: 432px;
+}
+.rectangle-207 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 730px;
+  top: 119px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-17 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 742px;
+  top: 130px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan7 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 748px;
+  top: 352px;
+}
+.kecamatan-jambi-selatan7 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 748px;
+  top: 370px;
+}
+.tipe-kost-campuran7 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 748px;
+  top: 384px;
+}
+.rp-1-300-000-bulan7 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 863px;
+  top: 432px;
+}
+.rectangle-208 {
+  background: #f6f6f6;
+  border-radius: 10px;
+  width: 280px;
+  height: 339px;
+  position: absolute;
+  left: 430px;
+  top: 119px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-18 {
+  width: 256px;
+  height: 210px;
+  position: absolute;
+  left: 442px;
+  top: 130px;
+  object-fit: cover;
+}
+.kost-eksklusif-trona-jambi-selatan8 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 448px;
+  top: 352px;
+}
+.kecamatan-jambi-selatan8 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 448px;
+  top: 370px;
+}
+.tipe-kost-campuran8 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: absolute;
+  left: 448px;
+  top: 384px;
+}
+.rp-1-300-000-bulan8 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  left: 563px;
+  top: 432px;
+}
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-color: #023246;
+  
+    /* Fonts */
+    /* Effects */
+  }
+  a {
+    text-decoration: none;
+  }

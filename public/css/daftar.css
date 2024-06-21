@@ -1,0 +1,202 @@
+.login-2,
+.login-2 * {
+  box-sizing: border-box;
+}
+.login-2 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+.rectangle-24 {
+  background: #f6f6f6;
+  width: 478px;
+  height: 541px;
+  position: absolute;
+  left: calc(50% - 239px);
+  top: 200px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.registration {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  position: absolute;
+  left: 600px;
+  top: 239px;
+}
+.username-email {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-25 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 314px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.username {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 558px;
+  top: 328px;
+}
+.password {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-26 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 387px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.email {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 561px;
+  top: 398px;
+}
+.rectangle-262 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 460px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.password2 {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 559px;
+  top: 471px;
+}
+.password3 {
+  width: 387px;
+  height: 58px;
+  position: static;
+}
+.rectangle-263 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 387px;
+  height: 58px;
+  position: absolute;
+  left: 475px;
+  top: 532px;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  padding-left: 25px;
+}
+.confirm-password {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 561px;
+  top: 543px;
+}
+.btn-login {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-27 {
+  color: #ffffff;
+  background: var(--primary-color, #023246);
+  border-radius: 10px;
+  width: 99px;
+  height: 32px;
+  position: absolute;
+  left: 625px;
+  top: 623px;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.submit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 627px;
+}
+.already-have-an-account-login-here {
+  color: #000000;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 475px;
+  top: 670px;
+}
+.already-have-an-account-login-here-span {
+  color: #000000;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.already-have-an-account-login-here-span2 {
+  color: #000000;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --primary-color: #023246;
+  
+    /* Fonts */
+    /* Effects */
+  }
+  

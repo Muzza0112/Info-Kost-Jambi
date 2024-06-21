@@ -1,0 +1,245 @@
+.pengelolaan-kost-admin,
+.pengelolaan-kost-admin * {
+  box-sizing: border-box;
+}
+
+.pengelolaan-kost-admin {
+  background: #ffffff;
+  height: 1474px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer {
+  width: 1440px;
+  height: 172px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 1302px;
+}
+
+.rectangle-8 {
+  background: #023246;
+  width: 100%;
+  height: 55.81%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 44.19%;
+}
+
+.infokostjambi {
+  color: #f6f6f6;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 42.01%;
+  left: 46.46%;
+  width: 11.53%;
+  bottom: 18.9%;
+  top: 63.66%;
+  height: 17.44%;
+}
+
+.logo {
+  width: 3.12%;
+  height: 26.16%;
+  position: absolute;
+  right: 54.93%;
+  left: 41.94%;
+  bottom: 15.12%;
+  top: 58.72%;
+  overflow: visible;
+}
+
+.kelola-kost-nav {
+  width: 1440px;
+  height: 86px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 0px;
+}
+
+.rectangle-5 {
+  background: #f6f6f6;
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  left: calc(50% - 720px);
+  bottom: 0%;
+  top: 0%;
+}
+
+.infokostjambi2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 69.93%;
+  left: 18.54%;
+  width: 11.53%;
+  bottom: 24.42%;
+  top: 40.7%;
+  height: 34.88%;
+}
+
+.kelola-kost {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 48.89%;
+  top: 22.09%;
+}
+
+.logo2 {
+  width: 3.12%;
+  height: 52.33%;
+  position: absolute;
+  right: 83.12%;
+  left: 13.75%;
+  bottom: 16.86%;
+  top: 30.81%;
+  overflow: visible;
+}
+
+.material-symbols-menu {
+  width: 38px;
+  height: 43px;
+  position: absolute;
+  left: 125px;
+  top: 29px;
+  overflow: visible;
+}
+
+.rectangle-34 {
+  background: #287094;
+  border-radius: 10px;
+  width: 180px;
+  height: 52px;
+  position: absolute;
+  left: 1130px;
+  top: 114px;
+}
+
+.tambah-kost {
+  color: #fefefe;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 1158px;
+  top: 127px;
+}
+
+.kost-item {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  background: var(--primary-color, #023246);
+  border-radius: 10px;
+  width: 1180px;
+  height: 52px;
+  position: absolute;
+  left: 130px;
+  top: 228px;
+}
+
+.kelola{
+  color: #ffffff;
+  left: 890px;
+  position: absolute;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.no,
+.nama-kost {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.kost-list {
+  display: grid;
+  grid-template-rows: auto;
+  row-gap: 20px;
+  position: absolute;
+  left: 130px;
+  top: 300px;
+}
+
+.kost-row {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.kost-id {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+}
+
+.kost-name {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+
+.kost-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.kost-actions-container {
+  display: flex;
+  gap: 10px; /* Menambahkan jarak antara tombol */
+}
+
+.rectangle-36 {
+  background: #287094;
+  border-radius: 5px;
+  width: 80px;
+  height: 27px;
+  color: #fefefe;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.rectangle-362 {
+  border-radius: 5px;
+  width: 80px;
+  height: 27px;
+  color: #fefefe;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  background: #ff0000;
+}
+
+.line-1 {
+  border-top: 1px solid #000;
+  width: 1180px;
+}
